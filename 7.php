@@ -15,7 +15,7 @@ function task7()
         echo "    <tr>";
         for ($j = 1; $j <= 10; $j++) {
             $cell = $i * $j;
-            if ($i % 2 === 0 && $j % 2 === 0)
+            if     ($i % 2 === 0 && $j % 2 === 0)
                 $cell = "($cell)";
             elseif ($i % 2 === 1 && $j % 2 === 1)
                 $cell = "[$cell]";
